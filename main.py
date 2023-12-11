@@ -15,8 +15,7 @@ def main():
             return
 
         # 엑셀 파일 경로 지정
-        file_path = r'C:\Users\yeonhee\project2\weather.csv'
-        data = pd.read_csv(file_path,encoding='cp949')
+        data = pd.read_csv('data/weather_.csv',encoding='cp949')
 
         # '일시' 열의 데이터를 datetime 타입으로 변환
         data['일시'] = pd.to_datetime(data['일시'], format='%Y-%m-%d')
