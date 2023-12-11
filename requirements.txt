@@ -1,5 +1,4 @@
 pandas
-re
 matplotlib.pyplot
 matplotlib.font_manager
 koreanize_matplotlib
