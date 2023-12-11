@@ -1,4 +1,3 @@
 pandas
-matplotlib.pyplot
-matplotlib.font_manager
+matplotlib
 koreanize_matplotlib
