@@ -26,8 +26,7 @@ if st.button('제출'):
         st.write(opinion)
 
 # CSV 파일 로드
-file_path = r'C:\Users\yeonhee\project2\weather_.csv'
-data = pd.read_csv(file_path,encoding='cp949')
+data = pd.read_csv('data/weather_.csv',encoding='cp949')
 
 # NA 값을 0으로 대체
 data_filled = data.fillna(0)
